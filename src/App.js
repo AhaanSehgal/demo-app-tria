@@ -1,7 +1,7 @@
 import Home from "./pages/Home";
 import { useTriaConnector, useAccount } from "@tria-sdk/connect";
-import { TriaConnectProvider } from "@tria-sdk/authenticate";
-import Application from "@tria-sdk/authenticate";
+import { TriaConnectProvider } from "@tria-sdk/authenticate-staging";
+import Application from "@tria-sdk/authenticate-staging";
 
 import { useEffect } from "react";
 import Wallet from "./pages/Wallet";
@@ -25,8 +25,8 @@ function App() {
         logo={"https://svgshare.com/i/10zF.svg"}
         dappDomain={window.parent.origin}
         primaryColor="#9A86FF"
-        defaultChain="FUSE"
-        supportedChains={["FUSE", "POLYGON"]}
+        // defaultChain="FUSE"
+        // supportedChains={["FUSE", "POLYGON"]}
       />
 
       {/* <Wallet /> */}

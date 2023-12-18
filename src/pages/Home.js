@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "@tria-sdk/authenticate/dist/index.css";
+import "@tria-sdk/authenticate-staging/dist/index.css";
 import {
   useSignMessage,
   useSendTransaction,
